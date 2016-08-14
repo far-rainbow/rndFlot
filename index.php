@@ -134,6 +134,8 @@ xxx;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.categories.min.js"></script> 
 <script src="js/js.js"></script>
-<?include "js/ya.metrika.js"?>
+<?php
+include "js/ya.metrika.js"
+?>
 </body>
 </html>
