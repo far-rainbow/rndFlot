@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
 </button>
-<p class="navbar-brand">Генератор v 0.7</p>
+<p class="navbar-brand">Генератор v 0.75</p>
 </div>
 <div class="collapse navbar-collapse" id="shapka">
 <ul class="nav navbar-nav">
@@ -51,7 +51,7 @@
 </ul>
 
 <?php
-include "js/yandex.metrika.counter";
+include "js/ya.metrika.counter";
 ?>
 
 <!--
