@@ -1,3 +1,4 @@
+<!-- This is just an example (c) Pavel E. Petrov -->
 <html>
 <head>
 <title>Fast Site</title>
