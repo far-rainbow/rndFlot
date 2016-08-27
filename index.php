@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="css/style.css" rel="stylesheet" />
 </head>
@@ -18,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
 </button>
-<p class="navbar-brand">Генератор v 0.77</p>
+<p class="navbar-brand poiret">Генератор v 0.79</p>
 </div>
 <div class="collapse navbar-collapse" id="shapka">
 <ul class="nav navbar-nav">
@@ -70,7 +71,7 @@ xxx;
             <div class="row">
                 <div class="col-lg-8 col-md-7 col-sm-6">
                     <div class="panel panel-default drop-shadow" style="margin-top: -16px;">
-                        <div class="panel-heading">
+                        <div class="panel-heading poiret">
                             Сгенерированные случайные величины (max <= шир.ген. в пикс.)
                         </div>
                         <div class="panel-body">
@@ -82,7 +83,7 @@ xxx;
                 </div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
 					<div class="panel panel-default drop-shadow" style="margin-top: -16px;">
-                        <div class="panel-heading">
+                        <div class="panel-heading poiret">
                             Круговая диаграмма сумм случайных чисел каждого генератора
                         </div>
                         <div class="panel-body">
@@ -96,6 +97,9 @@ xxx;
 </div>
 <div class="container">
 <p id="iteration" class="navbar-text" style="margin-top: -16px">-----</p>
+</div>
+<div class="container">
+<p id="testOutput" class="navbar-text" style="margin-top: -16px">-----</p>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>

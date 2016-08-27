@@ -37,3 +37,8 @@ body {padding-top: 80px;min-width:360px;}
         -webkit-box-shadow: 0 6px 12px 9px rgba(0, 0, 0, .05);
         box-shadow: 0 6px 12px 9px rgba(0, 0, 0, .05);
 }
+
+.poiret {
+font-family: 'Poiret One', cursive;
+font-weight: 600;
+}
