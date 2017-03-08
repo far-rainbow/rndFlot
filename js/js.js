@@ -3,6 +3,9 @@ btnValArr = {'#lowSize': 0.1,'#midSize': 0.5,'#fullSize': 1.0,'#startStop': fals
 modSize = 0;
 iteration = 0;
 query = [];
+/**
+ * TODO: make array great again linked with php generator. Please no handfull awkward label set!
+ */
 total = [ 
 {label: 0, data: 0},
 {label: 1, data: 0},

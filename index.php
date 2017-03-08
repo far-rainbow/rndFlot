@@ -1,3 +1,18 @@
+<?php
+
+/**
+ * This demo shows php view generator and js random float chart animation
+ * Эта демка демонистрирует Пыхыпы генератор экрана и анимированные индикаторы и графики случайных значений при помомощи js кода
+ * uses jquery flot and e.t.c  
+ */
+
+/**
+ * 
+ * @BARS_COUNT How many bars shall render in view
+ * Количество индикаторов на экране
+ */
+define ("BARS_COUNT",20);
+?>
 <!-- This is just an example (c) Pavel E. Petrov -->
 <html>
 <head>
@@ -48,7 +63,10 @@
 </ul>
 
 <?php
-include "js/ya.metrika.counter";
+/**
+* this is yandex counter include file -- you don`t need it
+* include "js/ya.metrika.counter";
+*/
 ?>
 
 </div>
@@ -57,12 +75,23 @@ include "js/ya.metrika.counter";
 <div class="container ">
 <table class="table" id="tableLines">
 <?php
-for ($i = 1; ; $i++) {
-echo <<< xxx
+/**
+ * render progress bars with unique ids (pbar_N)
+ * the BARS_COUNT constant is the total count of progress bars in the view
+ * константа BARS_COUNT используется для указания количества генерируемых индикаторов на экране (см.
+ * в начале файла)
+ */
+if (BARS_COUNT < 100) {
+	for($i = 1;; $i ++) {
+		echo <<< xxx
 <div class="pull-left" style="width: 15px; font-size: 6pt;">Г.$i</div><div class="progress">
 <div id="pbar_$i" class="progress-bar" role="progressbar" aria-valuenow="$i" aria-valuemin="0" aria-valuemax="100" style="width: $i%;">$i%</div></div>
 xxx;
-		if ($i == 8) break;
+		if ($i == BARS_COUNT)
+			break;
+	}
+} else {
+	echo "U dant fool me";
 }
 ?>
 </table>
