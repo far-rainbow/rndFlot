@@ -2,8 +2,8 @@
 
 /**
  * This demo shows php view generator and js random float chart animation
- * Эта демка демонистрирует Пыхыпы генератор экрана и анимированные индикаторы и графики случайных значений при помомощи js кода
- * uses jquery flot and e.t.c  
+ * Эта демка демонистрирует PHP генератор экрана, анимированные индикаторы и графики случайных значений при помомощи js кода
+ * uses jquery flot and e.t.c
  */
 
 /**
