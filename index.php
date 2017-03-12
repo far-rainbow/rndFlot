@@ -11,7 +11,7 @@
  * @BARS_COUNT How many bars shall render in view
  * Количество индикаторов на экране
  */
-define ("BARS_COUNT",20);
+define ("BARS_COUNT",8);
 ?>
 <!-- This is just an example (c) Pavel E. Petrov -->
 <html>
