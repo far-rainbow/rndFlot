@@ -3,13 +3,13 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter39027345 = new Ya.Metrika({
-                    id:39027345,
+                w.yaCounter40414230 = new Ya.Metrika({
+                    id:40414230,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
-                    trackHash:true,
-                    ecommerce:"dataLayer"
+                    webvisor:true,
+                    trackHash:true
                 });
             } catch(e) { }
         });
@@ -26,5 +26,5 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/39027345" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/40414230" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
