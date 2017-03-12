@@ -1,16 +1,16 @@
 <?php
 
 /**
+ * @author Pavel E. Petrov
+ * 
+ * https://github.com/far-rainbow
+ * 
  * This demo shows php view generator and js random float chart animation
  * Эта демка демонистрирует PHP генератор экрана, анимированные индикаторы и графики случайных значений при помомощи js кода
  * uses jquery flot and e.t.c
  */
 
-/**
- * 
- * @BARS_COUNT How many bars shall render in view
- * Количество индикаторов на экране
- */
+/** @const BARS_COUNT How many bars shall render in view | Количество индикаторов на экране */
 define ("BARS_COUNT",8);
 ?>
 <!-- This is just an example (c) Pavel E. Petrov -->
