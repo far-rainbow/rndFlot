@@ -7,6 +7,7 @@ query = [];
  * TODO: make array great again linked with php generator. Please no handfull awkward label set!
  * 20.03.2017 -- TODO: DO IT! You lazy pokerface! Do it!111 right now! =)
  * Okey, i shall start tonight! ~~admin from linux console 20/03/2017
+ * test message into master branch
  */
 total = [ 
 {label: 0, data: 0},
