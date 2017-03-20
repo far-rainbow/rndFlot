@@ -98,6 +98,7 @@ options.yaxis.max = $('#tableLines').width();
 
 	if (modSize) {
 		iteration++;
+		// Why 8? have to be rewrite soon
 		for (i=1;i<=8;i++)
 		{
 			rndWidth = Math.round(Math.random()*$('#pbar_'+i).parent().width() * modSize);
