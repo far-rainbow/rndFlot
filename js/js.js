@@ -5,6 +5,7 @@ iteration = 0;
 query = [];
 /**
  * TODO: make array great again linked with php generator. Please no handfull awkward label set!
+ * 20.03.2017 -- TODO: DO IT! You lazy pokerface! Do it!111 right now! =)
  */
 total = [ 
 {label: 0, data: 0},
