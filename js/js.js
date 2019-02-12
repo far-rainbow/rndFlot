@@ -91,7 +91,7 @@ $('#btn2 .dropdown-menu li a').click(function(){
 	}
 });
 
-! function anim() {
+(function anim() {
 var d = [];
 var testF;
 options.yaxis.max = $('#tableLines').width();
@@ -119,4 +119,4 @@ options.yaxis.max = $('#tableLines').width();
 $('#iteration').text('Итерация №'+iteration);
 $('#testOutput').text('Отладка: '+testF);
 setTimeout (anim, 1000);
-}();
+})();
