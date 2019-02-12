@@ -120,20 +120,3 @@ $('#iteration').text('Итерация №'+iteration);
 $('#testOutput').text('Отладка: '+testF);
 setTimeout (anim, 1000);
 }();
-
-// ! function getPrices() {
-	// linkCBR = 'https://crossorigin.me/http://www.cbr.ru/scripts/XML_daily.asp';
-	// var request = new XMLHttpRequest();
-	// request.open("GET", linkCBR, true);
-	// request.send();
-	// var xml = request.responseXML;
-	// var valute = xml.getElementsByTagName("ID");
-	// for(var i = 0; i < valute.length; i++) {
-		// var user = valute[i];
-		// var names = user.getElementsByTagName("Name");
-		// for(var j = 0; j < names.length; j++) {
-			// console.log(names[j].childNodes[0].nodeValue);
-		// }
-	// }
-// setTimeout(getPrices,5000);
-// }();
