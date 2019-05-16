@@ -34,7 +34,7 @@ define ("BARS_COUNT",8);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
 </button>
-<p class="navbar-brand poiret">Генератор v 0.83d</p>
+<p class="navbar-brand poiret">Генератор v 0.84</p>
 </div>
 <div class="collapse navbar-collapse" id="shapka">
 <ul class="nav navbar-nav">
@@ -125,10 +125,10 @@ xxx;
             </div>
 </div>
 <div class="container">
-<p id="iteration" class="navbar-text" style="margin-top: -16px">-----</p>
+<p id="iteration" class="navbar-text poiret" style="margin-top: -16px">-----</p>
 </div>
 <div class="container">
-<p id="testOutput" class="navbar-text" style="margin-top: -16px">-----</p>
+<p id="testOutput" class="navbar-text poiret" style="margin-top: -16px">-----</p>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
