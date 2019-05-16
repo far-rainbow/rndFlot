@@ -11,7 +11,7 @@
  */
 
 /** @const BARS_COUNT How many bars shall render in view | Количество индикаторов на экране */
-define ("BARS_COUNT",8);
+define ("BARS_COUNT",10);
 ?>
 <!-- This is just an example (c) Pavel E. Petrov -->
 <html>
@@ -34,7 +34,7 @@ define ("BARS_COUNT",8);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
 </button>
-<p class="navbar-brand poiret">Генератор v 0.84</p>
+<p class="navbar-brand poiret">Генератор v 0.85</p>
 </div>
 <div class="collapse navbar-collapse" id="shapka">
 <ul class="nav navbar-nav">
