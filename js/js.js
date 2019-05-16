@@ -98,7 +98,7 @@ options.yaxis.max = $('#tableLines').width();
 
 	if (modSize) {
 		iteration++;
-		for (i=1;i<=8;i++)
+		for (i=1;i<=10;i++)
 		{
 			rndWidth = Math.round(Math.random()*$('#pbar_'+i).parent().width() * modSize);
 			query[i] = rndWidth;
