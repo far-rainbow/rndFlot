@@ -34,7 +34,7 @@ define ("BARS_COUNT",10);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
 </button>
-<p class="navbar-brand poiret">Генератор v 0.85e</p>
+<p class="navbar-brand poiret">Генератор v 0.85f</p>
 </div>
 <div class="collapse navbar-collapse" id="shapka">
 <ul class="nav navbar-nav">
